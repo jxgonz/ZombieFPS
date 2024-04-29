@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61495
+53187
 Successfully changed project path to: /Users/johangonzalez/ZombieFPS/Zombie
 /Users/johangonzalez/ZombieFPS/Zombie
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,12 +54,12 @@ Successfully changed project path to: /Users/johangonzalez/ZombieFPS/Zombie
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8810183296] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3818699051 [EditorId] 3818699051 [Version] 1048832 [Id] OSXEditor(0,Johans-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8810183296] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1496699780 [EditorId] 1496699780 [Version] 1048832 [Id] OSXEditor(0,Johans-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8810183296] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3818699051 [EditorId] 3818699051 [Version] 1048832 [Id] OSXEditor(0,Johans-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8810183296] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1496699780 [EditorId] 1496699780 [Version] 1048832 [Id] OSXEditor(0,Johans-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 56.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.37f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -74,94 +74,94 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.37f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.37f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.37f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56383
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56775
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.37f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.37f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001437 seconds.
+Registered in 0.002066 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 87.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.433 seconds
+- Completed reload, in  0.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (433ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (629ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (280ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (67ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (112ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (168ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004555 seconds.
+Registered in 0.005932 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.712 seconds
+- Completed reload, in  1.125 seconds
 Domain Reload Profiling:
-	ReloadAssembly (713ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (581ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
+			SetupTypeCache (268ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (307ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (511ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.37f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (168.2 KB). Loaded Objects now: 3538.
-Memory consumption went from 103.2 MB to 103.0 MB.
-Total: 2.483750 ms (FindLiveObjects: 0.118667 ms CreateObjectMapping: 0.036625 ms MarkObjects: 2.272833 ms  DeleteObjects: 0.054958 ms)
+Unloading 23 unused Assets / (40.5 KB). Loaded Objects now: 3538.
+Memory consumption went from 103.1 MB to 103.1 MB.
+Total: 3.409208 ms (FindLiveObjects: 0.141250 ms CreateObjectMapping: 0.054583 ms MarkObjects: 3.165750 ms  DeleteObjects: 0.047083 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,17 +177,261 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1139033.115262 seconds.
-  path: Packages/com.unity.ide.vscode/package.json
-  artifactKey: Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1155519.390454 seconds.
+  path: Packages/com.unity.visualscripting/package.json
+  artifactKey: Guid(545a9d2bc7370224f8d14c22f2f580e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.ide.vscode/package.json using Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9797d3eb575af519a91cff9ea5b73f84') in 0.126924 seconds 
+Start importing Packages/com.unity.visualscripting/package.json using Guid(545a9d2bc7370224f8d14c22f2f580e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcc28995adf990dbe9fe24ae5c2045f') in 0.122212 seconds 
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.489818 seconds.
-  path: Packages/com.unity.ide.vscode/LICENSE.md
-  artifactKey: Guid(c9aabac5924106d4790d7b3a924ca34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 276.274981 seconds.
+  path: Assets/Monster_Orc (Troll)/Material/Monster.mat
+  artifactKey: Guid(8663d1932f5e14fa992c53301a36b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.ide.vscode/LICENSE.md using Guid(c9aabac5924106d4790d7b3a924ca34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28254df9fd78dca0785446f894e91cc4') in 0.685900 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Monster_Orc (Troll)/Material/Monster.mat using Guid(8663d1932f5e14fa992c53301a36b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ae32521bf5c7971c2ffbe67a835e2e') in 0.926896 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Monster_Orc (Troll)/Texture/monster_BaseColor.png
+  artifactKey: Guid(2d3cb960086fa4594b7bc90187634f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Monster_Orc (Troll)/Texture/monster_BaseColor.png using Guid(2d3cb960086fa4594b7bc90187634f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c653b22f5ba4ee442681cb4e8b9c85f') in 0.518356 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Monster_Orc (Troll)/Prefabs/monster_non_anim_orc.prefab
+  artifactKey: Guid(cb2551d5c39ec4700b19f3b57c030da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Monster_Orc (Troll)/Prefabs/monster_non_anim_orc.prefab using Guid(cb2551d5c39ec4700b19f3b57c030da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82755296ed52a71503a2f93f2bfeca6') in 0.546308 seconds 
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002729 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28182b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2262ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (2011ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (1087ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3585.
+Memory consumption went from 134.6 MB to 134.6 MB.
+Total: 7.938500 ms (FindLiveObjects: 0.565875 ms CreateObjectMapping: 0.201084 ms MarkObjects: 7.093500 ms  DeleteObjects: 0.076625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 534.908787 seconds.
+  path: Assets/Monster_Orc (Troll)/Texture/Materials/monster_Normal.mat
+  artifactKey: Guid(86ef95d4c18554bd793010c4b2586355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Monster_Orc (Troll)/Texture/Materials/monster_Normal.mat using Guid(86ef95d4c18554bd793010c4b2586355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935b7dcefcb0493f05ef582015bae654') in 0.399947 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.263407 seconds.
+  path: Assets/Monster_Orc (Troll)/Texture/Materials/monster_BaseColor.mat
+  artifactKey: Guid(4c653eed44f574cffa0a972e4c6f3744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Monster_Orc (Troll)/Texture/Materials/monster_BaseColor.mat using Guid(4c653eed44f574cffa0a972e4c6f3744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841a02f19dbd8e39e03820daea5dafd0') in 0.018955 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 35.336881 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Attack.FBX
+  artifactKey: Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Animations/Zombie@Z_Attack.FBX using Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b5840933567062e9af0bffc4866ec8') in 0.311374 seconds 
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Walk1.FBX
+  artifactKey: Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk1.FBX using Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd531936cefa28709883e339ac5b77d8a') in 0.149099 seconds 
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX
+  artifactKey: Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX using Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac49dcb597a54c125ef91859f7d9741') in 0.578470 seconds 
+Number of asset objects unloaded after import = 177
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Zombie/Textures/Zombie_nm.png
+  artifactKey: Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Textures/Zombie_nm.png using Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f513654ea89379d4031573d419bdd159') in 0.048899 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Idle.FBX
+  artifactKey: Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Animations/Zombie@Z_Idle.FBX using Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8acebb281b936c38129c3d96e9cd58') in 0.117149 seconds 
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX
+  artifactKey: Guid(d870b4f0cba458640b29cda304d40186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX using Guid(d870b4f0cba458640b29cda304d40186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5817ca1eb1d489808fd654f9d649c457') in 0.032499 seconds 
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Zombie/Prefabs/Zombie1.prefab
+  artifactKey: Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Prefabs/Zombie1.prefab using Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f80b5eaa8bddba5ce10e9042285569f') in 0.071381 seconds 
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Zombie/FBXs/Zombie3.FBX
+  artifactKey: Guid(a1b4b8144e2a4054199287da62cdd0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/FBXs/Zombie3.FBX using Guid(a1b4b8144e2a4054199287da62cdd0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ee457d178cb100bdf0c50d333b2295') in 0.032035 seconds 
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Zombie/Prefabs/Zombie3.prefab
+  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7be573be3b5737370e64335990abb2') in 0.063334 seconds 
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Zombie/Prefabs/Zombie2.prefab
+  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b874ecd92322424823081ba38ff0bf22') in 0.080903 seconds 
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
+  artifactKey: Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX using Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82b1b427598e26a7ee4ac6fec76da23') in 0.196961 seconds 
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Zombie/Materials/Zombie.mat
+  artifactKey: Guid(9fdb5531bdf185e448dd06dfa8192f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Materials/Zombie.mat using Guid(9fdb5531bdf185e448dd06dfa8192f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d229228b39c8a7dab308b21227ea01') in 0.033479 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Zombie/Textures/Zombie_metallic.tga
+  artifactKey: Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Textures/Zombie_metallic.tga using Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b73fad48a1f5bdb2a36c71b486e67e') in 0.269914 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Zombie/Textures/zombie_emission.tga
+  artifactKey: Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Textures/zombie_emission.tga using Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2098d638a7c8f4466f3579daede94e77') in 0.005835 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Zombie/FBXs/Zombie2.FBX
+  artifactKey: Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/FBXs/Zombie2.FBX using Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb852abfa4ab676d322b372613bde94b') in 0.030833 seconds 
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX
+  artifactKey: Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX using Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5654a33e1d70f72ef8f63716bd57b143') in 0.022992 seconds 
+Number of asset objects unloaded after import = 120
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Zombie/Textures/Zombie_ao.png
+  artifactKey: Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Zombie/Textures/Zombie_ao.png using Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b085c14b1f0c2467b60be9b31d2d2ff7') in 0.006468 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 126.481378 seconds.
+  path: Packages/com.unity.ide.vscode/Editor
+  artifactKey: Guid(58628227479c34542ac8c5193ccced84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ide.vscode/Editor using Guid(58628227479c34542ac8c5193ccced84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e248096366098e14c19e1216827242') in 0.003769 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025699 seconds.
+  path: Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef
+  artifactKey: Guid(8b845b123ab418448a8be2935fa804e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef using Guid(8b845b123ab418448a8be2935fa804e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee24f502f1831b8e657cb65f046e4c5a') in 0.041475 seconds 
+Number of asset objects unloaded after import = 0
