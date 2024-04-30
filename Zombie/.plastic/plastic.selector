@@ -1,4 +1,0 @@
-repository "Zombie@johanxgonzalez@cloud"
-  path "/"
-    br "/main"
-    co "/main"
